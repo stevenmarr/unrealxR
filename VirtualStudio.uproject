@@ -22,16 +22,6 @@
 			]
 		},
 		{
-			"Name": "SteamVR",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Linux",
-				"Mac"
-			]
-		},
-		{
 			"Name": "PythonScriptPlugin",
 			"Enabled": true
 		},
@@ -143,10 +133,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "DMXProtocol",
-			"Enabled": true
-		},
-		{
 			"Name": "MixedRealityCaptureFramework",
 			"Enabled": true
 		},
@@ -157,6 +143,16 @@
 				"Win32",
 				"Win64",
 				"HoloLens"
+			]
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
 			]
 		}
 	]
